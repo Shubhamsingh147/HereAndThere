@@ -77,7 +77,6 @@ $('#current').bind('input', function() {
 	document.getElementById('marquee3').start();
 	document.getElementById('road').style.backgroundImage= "url('road.jpg')";
 	}
-	
 	if($(this).val()>=200)
 	{
 	document.getElementById('marquee3').style.visibility ='visible';
